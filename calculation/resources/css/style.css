@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    padding: 5px;
+    width: 400px;
+    margin: 15px auto;
+    border: 1px solid rgb(114, 250, 175);
+    border-radius: 8px;
+}
+.container h2 {
+    margin: 5px 5px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    text-align: center;
+    color: cadetblue;
+}
+.container input{
+    margin: 5px 5px;
+    width: 100px;
+    color: rgb(234, 160, 136);
+}
+.ketqua p{
+    margin: 10px 10px;
+    color: rgb(232, 134, 102);
+}
