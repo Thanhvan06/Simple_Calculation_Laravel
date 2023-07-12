@@ -17,14 +17,14 @@
                 <option value="+">+</option>
                 <option value="-">-</option>
                 <option value="*">*</option>
-                <option value="/">%</option>
+                <option value="/">/</option>
             </select>
             <input type="number" name="num2" value="" required/>
-            <input type="submit" name="calculator" value="calculator"/>
+            <input type="submit" name="calculate" value="calculate"/>
         </form>
-     <div class="result"> 
+        <div class="result"> 
             <p>Result: {{ $result }}</p>      
-     </div>
+        </div>
     </div>
 </body>
 </html>
