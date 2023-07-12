@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Calculator</title>
+    <title>Calculation</title>
     <link rel="stylesheet" href="/calculation/resources/css/style.css">
 </head>
 <body>
     <div class="container">
         <h2>Calculator</h2>
-        <form method="POST" action="{{'calculator'}}">    
+        <form method="POST" action="calculator">    
             @csrf
-            <input type="text" name="num1" id="">
+            <input type="number" name="num1" value="" required/>
             <select name="calculator" id="">
                 <option value="+">+</option>
                 <option value="-">-</option>
                 <option value="*">*</option>
                 <option value="/">%</option>
             </select>
-            <input type="text" name="num2" id="">
-            <input type="submit" name="calculator" value="calculator" >
+            <input type="number" name="num2" value="" required/>
+            <input type="submit" name="calculator" value="calculator"/>
         </form>
      <div class="result"> 
             <p>Result: {{ $result }}</p>      
